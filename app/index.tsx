@@ -1,7 +1,7 @@
 import { Image } from "expo-image";
 import { router } from "expo-router";
 import { useEffect } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { ActivityIndicator, StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   useEffect(() => {
@@ -27,6 +27,11 @@ export default function Index() {
       <Text style={[styles.appname, { fontSize: 40, marginBottom: 20 }]}>
         BMR Calculator
       </Text>
+      <ActivityIndicator
+        size="large"
+        color="#ffffff"
+        style={{ marginTop: 20 }}
+      />
     </View>
   );
 }
