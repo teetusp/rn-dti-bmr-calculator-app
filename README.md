@@ -1,4 +1,5 @@
 # Moblie Application with React Native Expo App 🏆
+# BMR Calculator App
 # Preview 📽📸
 
 <img src="https://github.com/user-attachments/assets/db414770-bf64-4ce8-93c5-11287a278f6c" width="250"/>
